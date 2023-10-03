@@ -1,0 +1,20 @@
+void output(){
+    System.out.println("hi");
+}
+output()
+int sumof2No(int f, int s){
+    int sum = f + s;
+    return sum;
+}
+sumof2No(2,3)
+class Country{
+}
+Country India = new Country();
+class Planet{
+    void revolve(){
+        System.out.println("Revolve");
+    }
+}
+Planet Earth = new Planet();
+Planet Venus = new Planet();
+Earth.revolve()
